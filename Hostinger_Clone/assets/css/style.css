@@ -4,4 +4,22 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  #plan1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #plan3 {
+    display: none;
+  }
+}
+
+.mobile-menu {
+  display: none;
+}
+.mobile-menu-open {
+  display: block;
+}
 
