@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostinger | Everything You Need to Create a Website</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overflow-x-hidden overflow-y-hidden relative w-full bg-white">
+        <div class="h-[88px] bg-white">
+        </div>
+        <div id="navBar" class="bg-white w-full fixed z-50" style="top:0; margin:0;">
+            <nav class="mx-[40px] h-[88px] bg-white">
+                <div class="w-full h-[48px] py-[22px] flex flex-row justify-between">
+                    <div class="flex flex-row my-auto gap-[20px] items-center pt-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147 30" aria-label="hostinger-logo" role="presentation" class="h-icon-dark" style="width: 147px; height: 30px;"><g data-v-7fc192fd=""><g data-v-7fc192fd=""><path fill-rule="evenodd" clip-rule="evenodd" d="M62.065 17.6549C62.3745 16.86 62.5299 15.9376 62.5299 14.8891C62.5299 13.8401 62.3721 12.9178 62.0559 12.1227C61.74 11.327 61.3067 10.6582 60.7568 10.1161C60.2067 9.5741 59.563 9.16774 58.8258 8.8966C58.0881 8.6252 57.3041 8.4895 56.4733 8.4895C55.6657 8.4895 54.8959 8.6252 54.1648 8.8966C53.433 9.16774 52.7891 9.5741 52.2336 10.1161C51.6776 10.6582 51.2354 11.327 50.908 12.1227C50.5802 12.9178 50.4163 13.8401 50.4163 14.8891C50.4163 15.9376 50.5746 16.86 50.8905 17.6549C51.2067 18.4506 51.6393 19.1164 52.1896 19.6523C52.7395 20.1889 53.3834 20.5923 54.1209 20.8632C54.8583 21.1346 55.6421 21.2701 56.4733 21.2701C57.3274 21.2701 58.1264 21.1346 58.8695 20.8632C59.6126 20.5923 60.2536 20.1889 60.7919 19.6523C61.33 19.1164 61.7544 18.4506 62.065 17.6549ZM53.4622 16.515C53.3159 16.0317 53.243 15.4897 53.243 14.889C53.243 14.2998 53.3159 13.7607 53.4622 13.2713C53.6085 12.7824 53.8194 12.3642 54.0946 12.0167C54.3691 11.6689 54.7059 11.3977 55.104 11.2032C55.5017 11.0089 55.9581 10.9118 56.4733 10.9118C56.9763 10.9118 57.43 11.006 57.8341 11.1946C58.2374 11.3827 58.5772 11.6511 58.8518 11.9986C59.1268 12.3466 59.3379 12.7646 59.4842 13.2535C59.6305 13.7427 59.7037 14.2877 59.7037 14.889C59.7037 15.4897 59.6305 16.0317 59.4842 16.515C59.3379 16.9984 59.1268 17.4137 58.8518 17.7612C58.5772 18.1092 58.2374 18.3769 57.8341 18.5653C57.43 18.7543 56.9763 18.8488 56.4733 18.8488C55.9581 18.8488 55.5017 18.7543 55.104 18.5653C54.7059 18.3769 54.3691 18.1092 54.0946 17.7612C53.8194 17.4137 53.6085 16.9984 53.4622 16.515Z"></path> <path d="M69.4166 18.9192C69.8027 18.9192 70.1216 18.8871 70.3732 18.8218C70.6249 18.7573 70.8269 18.6691 70.9788 18.5564C71.1308 18.4449 71.2364 18.3124 71.295 18.1591C71.3537 18.0061 71.3829 17.8351 71.3829 17.6465C71.3829 17.2461 71.1954 16.9127 70.821 16.6479C70.4464 16.3825 69.8027 16.097 68.89 15.79C68.4918 15.6491 68.0939 15.4867 67.696 15.3043C67.2981 15.1219 66.9411 14.892 66.6252 14.6149C66.3095 14.3381 66.0517 14.0022 65.8529 13.607C65.6538 13.2125 65.5544 12.7325 65.5544 12.1667C65.5544 11.6009 65.6597 11.0912 65.8703 10.6377C66.0812 10.1839 66.3794 9.79828 66.7658 9.47968C67.152 9.16132 67.6199 8.91736 68.17 8.74607C68.7201 8.57552 69.3402 8.4895 70.031 8.4895C70.8502 8.4895 71.5584 8.57848 72.1555 8.75497C72.752 8.93169 73.2437 9.12647 73.6298 9.33854L72.8401 11.5127C72.5004 11.3359 72.1228 11.1797 71.7077 11.044C71.2921 10.9088 70.7918 10.8406 70.2068 10.8406C69.5511 10.8406 69.08 10.9326 68.7933 11.115C68.5066 11.2976 68.363 11.5777 68.363 11.9544C68.363 12.1786 68.416 12.3674 68.5213 12.5201C68.6264 12.6734 68.7759 12.8118 68.9688 12.9356C69.162 13.0592 69.3844 13.1714 69.6363 13.2713C69.8874 13.3717 70.1656 13.4745 70.4702 13.5805C71.1018 13.8166 71.652 14.0492 72.1203 14.279C72.5882 14.5089 72.9776 14.7771 73.2879 15.0833C73.5977 15.3896 73.8289 15.7492 73.9814 16.1617C74.1331 16.5745 74.2094 17.075 74.2094 17.6638C74.2094 18.807 73.8112 19.6938 73.0154 20.3241C72.2195 20.9549 71.0198 21.2703 69.4166 21.2703C68.8782 21.2703 68.3924 21.2377 67.9594 21.1729C67.5264 21.1077 67.1432 21.0283 66.8095 20.9342C66.4762 20.84 66.1892 20.7399 65.9491 20.6338C65.7093 20.5276 65.5075 20.4277 65.3435 20.333L66.1163 18.1414C66.4786 18.3421 66.9264 18.5215 67.4593 18.6802C67.9915 18.8396 68.6443 18.9192 69.4166 18.9192Z"></path> <path d="M86.2751 8.77295V11.1241H82.6059V21.0226H79.8673V11.1241H76.1978V8.77295H86.2751Z"></path> <path d="M89.3171 21.0228H92.056V8.77295H89.3171V21.0228Z"></path> <path d="M104.315 21.0226C103.531 19.6204 102.683 18.236 101.77 16.8686C100.856 15.5015 99.8849 14.2112 98.8554 12.9974V21.0226H96.1516V8.77295H98.3811C98.767 9.1615 99.1944 9.6388 99.6628 10.2046C100.131 10.7704 100.607 11.3744 101.093 12.0166C101.579 12.6588 102.062 13.3246 102.542 14.0138C103.021 14.7031 103.472 15.3658 103.894 16.0023V8.77295H106.615V21.0226H104.315Z"></path> <path d="M116.644 10.8942C115.369 10.8942 114.447 11.2507 113.879 11.9635C113.312 12.6766 113.028 13.6515 113.028 14.8893C113.028 15.4897 113.098 16.0352 113.238 16.5241C113.379 17.0128 113.59 17.4339 113.87 17.7876C114.152 18.1414 114.502 18.4155 114.924 18.61C115.345 18.8043 115.836 18.9014 116.398 18.9014C116.702 18.9014 116.963 18.8955 117.18 18.8839C117.396 18.8722 117.586 18.8488 117.75 18.8132V14.5534H120.489V20.6163C120.161 20.7461 119.635 20.8842 118.909 21.0313C118.183 21.1784 117.288 21.2525 116.223 21.2525C115.31 21.2525 114.482 21.1109 113.739 20.8284C112.995 20.5451 112.361 20.1331 111.834 19.5908C111.308 19.049 110.901 18.3828 110.614 17.5934C110.327 16.8044 110.184 15.9027 110.184 14.8893C110.184 13.8638 110.342 12.9564 110.658 12.1667C110.974 11.3775 111.406 10.7081 111.957 10.1604C112.507 9.61241 113.153 9.19716 113.897 8.91439C114.64 8.63138 115.433 8.4895 116.276 8.4895C116.849 8.4895 117.367 8.52831 117.829 8.60468C118.291 8.68156 118.689 8.7698 119.023 8.87015C119.357 8.97001 119.632 9.07308 119.848 9.17936C120.065 9.2854 120.219 9.3682 120.314 9.42703L119.524 11.6363C119.149 11.436 118.719 11.2625 118.233 11.115C117.747 10.9677 117.218 10.8942 116.644 10.8942Z"></path> <path d="M124.321 21.0226V8.77295H132.537V11.0885H127.06V13.4922H131.923V15.7551H127.06V18.7071H132.941V21.0226H124.321Z"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M144.006 9.61238C143.035 8.95811 141.636 8.63135 139.811 8.63135C139.307 8.63135 138.737 8.65483 138.099 8.70229C137.461 8.749 136.844 8.83205 136.247 8.94921V21.0226H138.985V16.55H140.337C140.572 16.8333 140.807 17.1484 141.042 17.4964C141.277 17.844 141.516 18.2118 141.756 18.6008C141.997 18.9899 142.231 19.3908 142.461 19.8031C142.689 20.2156 142.916 20.6219 143.139 21.0226H146.2C145.99 20.575 145.762 20.1185 145.516 19.6525C145.271 19.1874 145.016 18.7397 144.753 18.3096C144.489 17.8796 144.223 17.467 143.954 17.0721C143.685 16.6773 143.427 16.3268 143.181 16.0201C143.919 15.7141 144.484 15.2924 144.875 14.7565C145.268 14.2204 145.464 13.5217 145.464 12.6617C145.464 11.2828 144.977 10.2664 144.006 9.61238ZM139.433 11C139.591 10.9884 139.769 10.9825 139.968 10.9825C140.846 10.9825 141.51 11.1093 141.961 11.3621C142.412 11.6162 142.637 12.0428 142.637 12.644C142.637 13.2688 142.415 13.711 141.97 13.9698C141.525 14.2293 140.788 14.3583 139.758 14.3583H138.985V11.0354C139.126 11.024 139.275 11.0121 139.433 11Z"></path> <path d="M44.0025 8.87207H46.7577V21.0786H44.0025V15.9001H39.3754V21.0786H36.6201V8.87207H39.3754V13.5395H44.0025V8.87207Z"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8175 0.328857V9.05827L24.87 13.1829V3.92368L17.8175 0.328857ZM0.000244886 0.329286V14.0277H22.937L15.9584 10.1921L6.8675 10.1876V4.01584L0.000244886 0.329286ZM17.8175 25.8012V19.6826L8.65652 19.6762C8.66507 19.7169 1.56204 15.7792 1.56204 15.7792L24.8699 15.8893V29.5875L17.8175 25.8012ZM0.000244325 16.8495L0 25.8011L6.8675 29.3957V20.8765L0.000244325 16.8495Z"></path></g></g></svg>
+                        <div class="flex flex-row gap-[5px]">
+                            <img src="assets/img/in-2x.webp" alt="IN" class="h-[18px] my-auto">
+                            <span class="font-semibold my-auto" style="color:#2F1C6A">English</span>
+                        </div>
+                    </div>
+                    <div class="my-auto flex flex-row gap-[20px] items-center">
+                        <ul class="flex flex-row gap-[30px]">
+                            <li class="my-auto">
+                                <a href="#" class="my-auto">
+                                    <span class="font-normal my-auto" style="color:#000000">WordPress</span>
+                                </a>
+                            </li>
+                            <li class="my-auto">
+                                <a href="#" class="my-auto">
+                                    <span class="font-normal my-auto" style="color:#000000">Website Builder</span>
+                                </a>
+                            </li>
+                            <li class="my-auto flex flex-row gap-[8px]">
+                                <a href="#" class="my-auto">
+                                    <span class="font-normal my-auto" style="color:#000000">Hosting</span>
+                                </a>
+                                <svg data-v-7fc192fd="" data-v-e6ac469e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-down" role="presentation" class="h-icon-dark" data-v-4aa81217="" style="width: 24px; height: 24px;"><g data-v-7fc192fd=""><path data-v-7fc192fd="" d="M7.41 8.59L12 13.17L16.59 8.59L18 10L12 16L6 10L7.41 8.59Z"></path></g></svg>
+                            </li>
+                            <li class="my-auto flex flex-row gap-[8px]">
+                                <a href="#" class="my-auto">
+                                    <span class="font-normal my-auto" style="color:#000000">Pro</span>
+                                </a>
+                                <svg data-v-7fc192fd="" data-v-e6ac469e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-down" role="presentation" class="h-icon-dark" data-v-4aa81217="" style="width: 24px; height: 24px;"><g data-v-7fc192fd=""><path data-v-7fc192fd="" d="M7.41 8.59L12 13.17L16.59 8.59L18 10L12 16L6 10L7.41 8.59Z"></path></g></svg>
+                            </li>
+                            <li class="my-auto">
+                                <a href="#" class="my-auto">
+                                    <span class="font-normal my-auto" style="color:#000000">Domains</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="px-[18px] py-[10px] font-semibold" style="border:2px solid #2F1C6A; border-radius:5px;">Log In</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- SCRIPT AND STYLE FOR DROP SHADOW ON SCROLL-->
+        <script>
+            window.addEventListener('scroll', function() {
+              var navBar = document.getElementById('navBar');
+              if (window.pageYOffset > 0) {
+                navBar.classList.add('shadow');
+              } else {
+                navBar.classList.remove('shadow');
+              }
+            });
+          </script>
+          <style>
+            .shadow {
+              box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+            }
+          </style>
+          <!-- END TO SCRIPT AND STYLE FOR DROP SHADOW ON SCROLL-->
+        <div class="max-w-[1400px] w-11/12 flex flex-row mx-auto justify-between items-center gap-[80px] my-[50px] pt-[20px]">
+            <div class="w-4/12  gap-[10px] flex flex-col">
+                <h1 class="font-semibold text-4xl" style="color:#2F1C6A">Everything You Need to Create a Website</h1>
+                <h2 class="font-semibold" style="color:#2F1C6A; font-size:20px;">Up to <span style="color:#673DE6">75%</span> off Hosting</h2>
+                <div class="flex flex-row gap-[5px] pt-5">
+                    <svg data-v-7fc192fd="" data-v-3bed47a8="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-label="globe" role="presentation" style="width: 20px; height: 20px;"><path fill="#673DE6" fill-rule="evenodd" clip-rule="evenodd" d="M8.016 19.803a10.05 10.05 0 0 0 3.969 0 10.017 10.017 0 0 0 7.7-7.303A10.02 10.02 0 0 0 20 10a10.02 10.02 0 0 0-.832-4A10.017 10.017 0 0 0 11.985.197a10.047 10.047 0 0 0-3.97 0A10.017 10.017 0 0 0 .316 7.5 10.018 10.018 0 0 0 0 10a10.018 10.018 0 0 0 .832 4 10.017 10.017 0 0 0 7.184 5.803ZM2.498 14a8.517 8.517 0 0 0 5.457 4.252A12.974 12.974 0 0 1 5.627 14H2.498Zm9.547 4.252A8.517 8.517 0 0 0 17.502 14h-3.129a12.975 12.975 0 0 1-2.328 4.252ZM18.5 10c0-.87-.13-1.71-.374-2.5H14.76a13.065 13.065 0 0 1 0 5h3.366c.243-.79.374-1.63.374-2.5Zm-6.455-8.252A8.517 8.517 0 0 1 17.502 6h-3.129a12.974 12.974 0 0 0-2.328-4.252ZM5.627 6a12.974 12.974 0 0 1 2.328-4.252A8.517 8.517 0 0 0 2.498 6h3.129ZM5.24 7.5H1.874A8.498 8.498 0 0 0 1.5 10c0 .87.13 1.71.374 2.5H5.24a13.066 13.066 0 0 1 0-5Zm1.532 0A11.54 11.54 0 0 0 6.5 10c0 .859.094 1.695.272 2.5h6.455a11.542 11.542 0 0 0 0-5H6.772Zm.443 6.5A11.512 11.512 0 0 0 10 18.261 11.513 11.513 0 0 0 12.785 14h-5.57Zm0-8A11.511 11.511 0 0 1 10 1.739 11.512 11.512 0 0 1 12.785 6h-5.57Z"></path></g></svg>
+                    <span style="color:#2F1C6A;">Free Domain</span>
+                    <svg data-v-7fc192fd="" data-v-3bed47a8="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="help" role="presentation"  style="width: 20px; height: 24px;"><path fill="#2F1C6A" d="M12 2C6.489 2 2 6.489 2 12C2 17.511 6.489 22 12 22C17.511 22 22 17.511 22 12C22 6.489 17.511 2 12 2ZM12 4C16.4301 4 20 7.56988 20 12C20 16.4301 16.4301 20 12 20C7.56988 20 4 16.4301 4 12C4 7.56988 7.56988 4 12 4ZM12 6C9.79 6 8 7.79 8 10H10C10 8.9 10.9 8 12 8C13.1 8 14 8.9 14 10C14 12 11 12.367 11 15H13C13 13.349 16 12.5 16 10C16 7.79 14.21 6 12 6ZM11 16V18H13V16H11Z"></path></g></svg>
+                </div>
+                <div class="flex flex-row gap-[5px] pb-5">
+                    <svg data-v-7fc192fd="" data-v-3bed47a8="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-label="headset" role="presentation" style="width: 20px; height: 20px;"><path fill="#673DE6" fill-rule="evenodd" clip-rule="evenodd" d="M2 9V8a8 8 0 1 1 16 0v1h1a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-1v1a3 3 0 0 1-3 3h-4.25a.75.75 0 0 1 0-1.5H15a1.5 1.5 0 0 0 1.5-1.5v-1H16a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1h.5V8a6.5 6.5 0 1 0-13 0v1H4a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1h1Zm-.5 5.5v-4h2v4h-2Zm15 0v-4h2v4h-2Z"></path></g></svg>
+                    <span style="color:#2F1C6A;">24/7 Customer Support</span>
+                </div>
+                <div class="flex flex-col gap-[10px] pb-5">
+                    <div class="flex flex-row items-end">
+                        <span class="font-normal text-xl" style="color:#2F1C6A;">₹</span>
+                        <span class="font-bold text-5xl" style="color:#2F1C6A;">149.00</span>
+                        <span class="font-normal text-xl" style="color:#2F1C6A;">/mo</span>
+                    </div>
+                    <h2 class="font-semibold" style="color:#2F1C6A; font-size:20px;">+ 2 Months Free</h2>
+                </div>
+                <div class="max-w-[310px] flex flex-col gap-[24px]">
+                    <div class="flex flex-row gap-[7px] items-center">
+                        <span class="p-4 text-2xl font-normal text-center" style="border:1px solid #2F1C6A; border-radius:5px; color:#2F1C6A; width:65px; height:65px;">00</span>
+                        <span style="color:#2F1C6A">:</span>
+                        <span id="hours" class="p-4 text-2xl font-normal text-center" style="border:1px solid #2F1C6A; border-radius:5px; color:#2F1C6A; width:65px; height:65px;">00</span>
+                        <span style="color:#2F1C6A">:</span>
+                        <span id="minutes" class="p-4 text-2xl font-normal text-center" style="border:1px solid #2F1C6A; border-radius:5px; color:#2F1C6A; width:65px; height:65px;">00</span>
+                        <span style="color:#2F1C6A">:</span>
+                        <span id="seconds" class="p-4 text-2xl font-normal text-center" style="border:1px solid #2F1C6A; border-radius:5px; color:#2F1C6A; width:65px; height:65px;">00</span>
+                      </div>
+                      <button class="font-semibold py-3 drop-shadow-lg" style="color:#ffffff; font-size:17px; background-color:rgb(103,61,230); border-radius:5px;">
+                        Claim Deal
+                    </button>
+                </div>
+                <div class="flex flex-row gap-[5px] pt-2">
+                    <svg data-v-7fc192fd="" data-v-3bed47a8="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" style="width: 20px; height: 20px;"><path fill="#673DE6" fill-rule="evenodd" clip-rule="evenodd" d="m2.18 11.103-.018-.11c-.157-.789-.165-5.1-.162-6.747.001-.392.228-.745.581-.908L9.582.092a.993.993 0 0 1 .836 0l7 3.246a1 1 0 0 1 .581.908c.004 1.647-.002 5.958-.153 6.747l-.018.11c-.995 5.355-4.638 7.763-7.517 8.843l-.008.003a.897.897 0 0 1-.605-.003c-2.88-1.08-6.514-3.479-7.518-8.843Zm14.19-.374-.02.113c-.844 4.513-3.81 6.601-6.346 7.604-2.534-1.002-5.493-3.082-6.346-7.605l-.02-.118-.005-.026v-.001l-.008-.065a5.636 5.636 0 0 1-.02-.205 19.219 19.219 0 0 1-.036-.653 72.81 72.81 0 0 1-.048-1.855C3.503 6.715 3.5 5.428 3.5 4.576L10 1.563l6.5 3.013c0 .852-.002 2.14-.02 3.343-.01.686-.024 1.336-.045 1.858-.01.261-.022.482-.035.655a5.763 5.763 0 0 1-.018.207l-.009.07-.004.02Zm-1.824-2.132a.758.758 0 0 0 0-1.07.75.75 0 0 0-1.064 0l-3.984 4.001-1.976-1.985a.75.75 0 0 0-1.064 0 .758.758 0 0 0 0 1.07l2.508 2.519a.75.75 0 0 0 1.065 0l4.515-4.535Z"></path></g></svg>
+                    <span style="color:#2F1C6A;">Benefit from an exclusive 30-day money-back guarantee</span>
+                </div>
+            </div>
+            <div class="my-auto mx-auto flex items-center justify-end">
+                <img src="assets/img/hero.webp" class="max-w-[840px] w-11/12"> 
+            </div>
+        </div>
+        <div class="max-w-[1150px] w-11/12 flex flex-row gap-[10px] mx-auto justify-around items-center py-[80px]">
+            <img src="assets/img/r1.png" alt="TrustPilot" class="w-1/5 my-[20px]">
+            <img src="assets/img/r2.png" alt="Google" class="w-1/5">
+            <img src="assets/img/r3.png" alt="Hostadvice" class="w-1/5">
+            <img src="assets/img/r4.png" alt="Wpbeginner" class="w-1/5">
+        </div>
+        <div class="w-full">
+            <div class="max-w-[1150px] w-11/12 flex flex-col gap-[18px] mx-auto justify-around items-center py-[30px]">
+                <h1 class="font-semibold text-4xl" style="color:#2F1C6A">Choose Your Web Hosting Plan</h1>
+                <div class="flex lg:flex-row flex-col gap-[30px] justify-between mt-5">
+                    <div class="w-11/12 max-w-[360px]" style="border:1px solid #D5DFFF; border-radius:6px;">
+                        <div class="flex flex-col px-8 py-12 gap-[40px]">
+                            <div class="flex flex-col gap-[24px]">
+                                <img src="assets/img/rating2.png" class="w-6/12">
+                                <span style="color:#2F1C6A;" class="text-md">Hostinger impressed me with amazing customer experience and effortless migration from my previous hosting provider.</span>
+                            </div>
+                            <div>
+                                <a href="#"><span style="color:#673DE6;" class="font-semibold">Read full story</span></a>
+                            </div>
+                        </div>
+                        <div class="flex flex-row px-8 py-6 gap-[10px]" style="border-top:1px solid #D5DFFF; background-color:#F4F5FF">
+                           <div>
+                                <img src="assets/img/face1.webp" class="w-16 h-16 rounded-full">
+                           </div>
+                           <div class="my-auto">
+                                <span style="color:#2F1C6A;" class="text-lg font-semibold">Sameer Chauhan</span><br>
+                                <span style="color:#2F1C6A;" class="pt-5 text-sm">Freelance Developer</span>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="border:1px solid #D5DFFF; border-radius:6px;">
+                        <div class="flex flex-col px-8 py-12 gap-[40px]">
+                            <div class="flex flex-col gap-[24px]">
+                                <img src="assets/img/rating2.png" class="w-6/12">
+                                <span style="color:#2F1C6A;" class="text-md">Support matters to me the most. Your specialists were always there to help me immediately whenever needed. Really loved the support!! </span>
+                            </div>
+                            <div>
+                                <a href="#"><span style="color:#673DE6;" class="font-semibold">Read full story</span></a>
+                            </div>
+                        </div>
+                        <div class="flex flex-row px-8 py-6 gap-[10px]" style="border-top:1px solid #D5DFFF; background-color:#F4F5FF">
+                           <div>
+                                <img src="assets/img/face2.webp" class="w-16 h-16 rounded-full">
+                           </div>
+                           <div class="my-auto">
+                                <span style="color:#2F1C6A;" class="text-lg font-semibold">Jake Sinclair</span><br>
+                                <span style="color:#2F1C6A;" class="pt-5 text-sm">Graphic and Web Designer</span>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="border:1px solid #D5DFFF; border-radius:6px;">
+                        <div class="flex flex-col px-8 py-12 gap-[40px]">
+                            <div class="flex flex-col gap-[24px]">
+                                <img src="assets/img/rating2.png" class="w-6/12">
+                                <span style="color:#2F1C6A;" class="text-md">I was looking for a hosting company that is very intuitive for beginners and very well-configured for good performance.</span>
+                            </div>
+                            <div>
+                                <a href="#"><span style="color:#673DE6;" class="font-semibold">Read full story</span></a>
+                            </div>
+                        </div>
+                        <div class="flex flex-row px-8 py-6 gap-[10px]" style="border-top:1px solid #D5DFFF; background-color:#F4F5FF">
+                           <div>
+                                <img src="assets/img/face3.webp" class="w-16 h-16 rounded-full">
+                           </div>
+                           <div class="my-auto">
+                                <span style="color:#2F1C6A;" class="text-lg font-semibold">Jhon Ortega</span><br>
+                                <span style="color:#2F1C6A;" class="pt-5 text-sm">Entrepreneur</span>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="font-semibold py-3 mt-5 max-w-[400px] w-11/12 drop-shadow-lg" style="color:rgb(103,61,230); font-size:17px; border:2px solid rgb(103,61,230); border-radius:5px;">
+                    Browse More Client Stories
+                </button>
+            </div>
+        </div>
+        <div class="w-full" style="background-color:#FAFBFF">
+            <div style="background-color:#FAFBFF" class="max-w-[1150px] w-11/12 flex flex-col mx-auto justify-around items-center py-[80px]">
+                <h1 class="font-semibold text-4xl" style="color:#2F1C6A">Data Centers All Around the World</h1>
+                <span class="pt-5 text-center" style="color:#2F1C6A;">Our web hosting, WordPress hosting, and cloud hosting plans offer server locations in: USA, United Kingdom, France, India, Singapore, Brazil, Lithuania, and the Netherlands.</span>
+                <div class="pt-16">
+                    <img src="assets/img/word.webp" alt="Locations">
+                </div>
+            </div>
+        </div>
+        <div class="w-full">
+            <div class="max-w-[1150px] w-11/12 flex flex-col gap-[50px] mx-auto justify-around items-center py-[80px]">
+                <div class="flex flex-row items-center justify-between gap-[70px]">
+                    <div class="flex flex-col">
+                        <h1 class="font-semibold text-4xl" style="color:#2F1C6A">All-In-One Website Solution</h1>
+                        <div class="flex flex-row gap-[5px] pt-[30px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Manage up to 100 websites.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Register a domain name for free.</span>
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="help" role="presentation" class="h-features-reviews-section__feature-tooltip-icon h-icon-gray has-tooltip" data-original-title="null" data-v-525c8744="" style="width: 20px; height: 24px;" aria-describedby="tooltip_eb3q1f6pe2"><path fill="#727272" d="M12 2C6.489 2 2 6.489 2 12C2 17.511 6.489 22 12 22C17.511 22 22 17.511 22 12C22 6.489 17.511 2 12 2ZM12 4C16.4301 4 20 7.56988 20 12C20 16.4301 16.4301 20 12 20C7.56988 20 4 16.4301 4 12C4 7.56988 7.56988 4 12 4ZM12 6C9.79 6 8 7.79 8 10H10C10 8.9 10.9 8 12 8C13.1 8 14 8.9 14 10C14 12 11 12.367 11 15H13C13 13.349 16 12.5 16 10C16 7.79 14.21 6 12 6ZM11 16V18H13V16H11Z"></path></g></svg>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Set up a professional business email address.</span>
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="help" role="presentation" class="h-features-reviews-section__feature-tooltip-icon h-icon-gray has-tooltip" data-original-title="null" data-v-525c8744="" style="width: 20px; height: 24px;" aria-describedby="tooltip_eb3q1f6pe2"><path fill="#727272" d="M12 2C6.489 2 2 6.489 2 12C2 17.511 6.489 22 12 22C17.511 22 22 17.511 22 12C22 6.489 17.511 2 12 2ZM12 4C16.4301 4 20 7.56988 20 12C20 16.4301 16.4301 20 12 20C7.56988 20 4 16.4301 4 12C4 7.56988 7.56988 4 12 4ZM12 6C9.79 6 8 7.79 8 10H10C10 8.9 10.9 8 12 8C13.1 8 14 8.9 14 10C14 12 11 12.367 11 15H13C13 13.349 16 12.5 16 10C16 7.79 14.21 6 12 6ZM11 16V18H13V16H11Z"></path></g></svg>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Optimize your workflow with managed WordPress hosting.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Launch websites quickly with our Website Builder.</span>
+                        </div>
+                    </div>
+                    <div class="my-auto mx-auto flex items-center justify-end">
+                        <img src="assets/img/sec1.webp" class="max-w-[624px] w-11/12"> 
+                    </div>
+                </div>
+                <div class="flex flex-row gap-[30px] justify-between">
+                    <div class="w-11/12 max-w-[360px]" style="background-color:#FAFBFF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/trustpilot.webp" class="w-8/12">
+                                <span style="color:#2F1C6A;">Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear.</span>
+                            </div>
+                            <div class="flex flex-row pt-[10px] justify-between">
+                                <img src="assets/img/rating.webp" class="w-6/12">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-right" style="width: 24px; height: 24px;"><path fill="#673EE6" d="M8.29498 16.885L12.875 12.295L8.29498 7.705L9.70498 6.295L15.705 12.295L9.70498 18.295L8.29498 16.885Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="background-color:#FAFBFF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/trustpilot.webp" class="w-8/12">
+                                <span style="color:#2F1C6A;">Easy to use platform. Very good and fast support. Highly recommended for students and professionals</span>
+                            </div>
+                            <div class="flex flex-row pt-[10px] justify-between">
+                                <img src="assets/img/rating.webp" class="w-6/12">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-right" style="width: 24px; height: 24px;"><path fill="#673EE6" d="M8.29498 16.885L12.875 12.295L8.29498 7.705L9.70498 6.295L15.705 12.295L9.70498 18.295L8.29498 16.885Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="background-color:#FAFBFF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/trustpilot.webp" class="w-8/12">
+                                <span style="color:#2F1C6A;">Even though I am a newbie in this world it has been very easy for me to understand and manage my site.</span>
+                            </div>
+                            <div class="flex flex-row pt-[10px] justify-between">
+                                <img src="assets/img/rating.webp" class="w-6/12">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-right" style="width: 24px; height: 24px;"><path fill="#673EE6" d="M8.29498 16.885L12.875 12.295L8.29498 7.705L9.70498 6.295L15.705 12.295L9.70498 18.295L8.29498 16.885Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full" style="background-color:#FAFBFF">
+            <div class="max-w-[1150px] w-11/12 flex flex-col gap-[50px] mx-auto justify-around items-center py-[80px]">
+                <div class="flex flex-row-reverse items-center justify-between gap-[70px]">
+                    <div class="flex flex-col w-5/12">
+                        <h1 class="font-semibold text-4xl" style="color:#2F1C6A">Maximize Website Speed</h1>
+                        <div class="flex flex-row gap-[5px] pt-[30px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Maximize website loading speed with LiteSpeed Web Server technology.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Enjoy optimized performance with advanced cache solutions.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Reduce website response times up to 3 times with Object Cache for WordPress.</span>
+                        </div>
+                    </div>
+                    <div class="my-auto mx-auto flex items-center justify-between">
+                        <img src="assets/img/hostsec2.webp" class="max-w-[624px] w-11/12"> 
+                    </div>
+                </div>
+                <div class="flex flex-row gap-[20px] justify-between">
+                    <div class="w-11/12 max-w-[365px]" style="background-color:#F4F5FF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/logo3.webp" class="w-9/12">
+                                <span style="color:#2F1C6A;">Speed test results of our Hostinger US test site came back with a worldwide average of a blazing fast 143 ms, which ranks them as one of our A+ top tier hosts!</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[365px]" style="background-color:#F4F5FF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/logo2.webp" class="w-9/12">
+                                <span style="color:#2F1C6A;">If you have a small business website, an online store, or a growing blog, your website can easily handle sudden traffic spikes.</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[365px]" style="background-color:#F4F5FF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/logo1.webp" class="w-9/12">
+                                <span style="color:#2F1C6A;">The average loading time of my fully-fledged landing page was a phenomenal 1.56s, and uptime over a few months of testing was upwards of 99.99%, exactly as promised.</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full">
+            <div class="max-w-[1150px] w-11/12 flex flex-col gap-[50px] mx-auto justify-around items-center py-[80px]">
+                <div class="flex flex-row items-center justify-between gap-[70px]">
+                    <div class="flex flex-col w-5/12">
+                        <h1 class="font-semibold text-4xl" style="color:#2F1C6A">Our Team is Here to Help You 24/7</h1>
+                        <div class="flex flex-row gap-[5px] pt-[30px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Get help directly from the editor, thanks to our 24/7 live chat support.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Troubleshoot by yourself with our video walkthroughs and guides.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Become a pro webmaster with our in-depth tutorials.</span>
+                        </div>
+                    </div>
+                    <div class="my-auto mx-auto flex items-center justify-end">
+                        <img src="assets/img/hostsec3.webp" class="max-w-[624px] w-11/12"> 
+                    </div>
+                </div>
+                <div class="flex lg:flex-row flex-col gap-[30px] justify-between">
+                    <div class="w-11/12 max-w-[360px]" style="background-color:#FAFBFF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/trustpilot.webp" class="w-8/12">
+                                <span style="color:#2F1C6A;">One of the best customer service you can find. Instant support. Patient, detailed and very hands-on support. I am a fan!</span>
+                            </div>
+                            <div class="flex flex-row pt-[10px] justify-between">
+                                <img src="assets/img/rating.webp" class="w-6/12">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-right" style="width: 24px; height: 24px;"><path fill="#673EE6" d="M8.29498 16.885L12.875 12.295L8.29498 7.705L9.70498 6.295L15.705 12.295L9.70498 18.295L8.29498 16.885Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="background-color:#FAFBFF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/trustpilot.webp" class="w-8/12">
+                                <span style="color:#2F1C6A;">The best support in the industry. Amazing. Never fails to impress. Keep it up.<br><br></span>
+                            </div>
+                            <div class="flex flex-row pt-[10px] justify-between">
+                                <img src="assets/img/rating.webp" class="w-6/12">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-right" style="width: 24px; height: 24px;"><path fill="#673EE6" d="M8.29498 16.885L12.875 12.295L8.29498 7.705L9.70498 6.295L15.705 12.295L9.70498 18.295L8.29498 16.885Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="background-color:#FAFBFF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/trustpilot.webp" class="w-8/12">
+                                <span style="color:#2F1C6A;">Support is fast and good. A company that still puts the customer first!<br><br><br></span>
+                            </div>
+                            <div class="flex flex-row pt-[10px] justify-between">
+                                <img src="assets/img/rating.webp" class="w-6/12">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-right" style="width: 24px; height: 24px;"><path fill="#673EE6" d="M8.29498 16.885L12.875 12.295L8.29498 7.705L9.70498 6.295L15.705 12.295L9.70498 18.295L8.29498 16.885Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[1150px] w-11/12 flex flex-col gap-[18px] mx-auto justify-around items-center py-[30px]">
+                <h1 class="font-semibold text-4xl" style="color:#2F1C6A">Join 1,597,691 Website Owners</h1>
+                <button class="font-semibold py-3 mt-5 max-w-[250px] w-11/12 drop-shadow-lg" style="color:#ffffff; font-size:17px; background-color:rgb(103,61,230); border-radius:5px;">
+                    Get Started
+                </button>
+                <div class="flex flex-row gap-[5px] max-w-[250px] w-11/12">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                    <span class="text-center" style="color:#4d4d4d; font-size:14px;">Benefit from an exclusive 30-day money-back guarantee</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-full" style="background-color:#673DE6">
+            <div class="max-w-[1150px] w-11/12 flex flex-col gap-[50px] mx-auto justify-around items-center py-[80px]">
+                <div class="flex flex-row-reverse items-center justify-between gap-[70px]">
+                    <div class="flex flex-col w-5/12">
+                        <h1 class="font-semibold text-4xl" style="color:#ffffff">Advanced Security Features</h1>
+                        <div class="flex flex-row gap-[5px] pt-[30px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#ffffff" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#ffffff;">Get unlimited SSL security certificates to encrypt your websites traffic.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#ffffff" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#ffffff;">Protect your website from DDoS attacks with Cloudflare protected nameservers.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#ffffff" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#ffffff;">Secure your files with automatic backups.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#ffffff" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#ffffff;">Never miss a customer with our 99.9% uptime guarantee.</span>
+                        </div>
+                    </div>
+                    <div class="my-auto mx-auto flex items-center justify-between">
+                        <img src="assets/img/hostsec4.webp" class="max-w-[624px] w-11/12"> 
+                    </div>
+                </div>
+                <div class="flex flex-row gap-[20px] justify-between">
+                    <div class="w-11/12 max-w-[365px]" style="background-color:#5025D1">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/logo5.webp" class="w-9/12">
+                                <span style="color:#ffffff;">Hostinger proved itself a reliable web hosting service. In fact, our test site didn't go down once during the 14-day observation period.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[365px]" style="background-color:#5025D1">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/logo6.webp" class="w-9/12">
+                                <span style="color:#ffffff;">Plans include SSL certificates and all servers have an advanced security module to protect your data.<br></span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[365px]" style="background-color:#5025D1">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/logo7.webp" class="w-9/12">
+                                <span style="color:#ffffff;">With DDoS protection, auto-updates, automatic website backups, and other security measures, you can rest assured that your website is secured.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full">
+            <div class="max-w-[1150px] w-11/12 flex flex-col gap-[50px] mx-auto justify-around items-center py-[80px]">
+                <div class="flex flex-row items-center justify-between gap-[70px]">
+                    <div class="flex flex-col w-5/12">
+                        <h1 class="font-semibold text-4xl" style="color:#2F1C6A">Free Migration</h1>
+                        <div class="flex flex-row gap-[5px] pt-[30px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Transfer your website using our free automatic website migration tool.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Our agents will guide you in every step of the way.</span>
+                        </div>
+                        <div class="flex flex-row gap-[5px] pt-[25px]">
+                            <svg data-v-7fc192fd="" data-v-0561eb7e="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                            <span style="color:#727272;">Your website will be transferred within 24 hours.</span>
+                        </div>
+                    </div>
+                    <div class="my-auto mx-auto flex items-center justify-end">
+                        <img src="assets/img/hostsec5.webp" class="max-w-[624px] w-11/12"> 
+                    </div>
+                </div>
+                <div class="flex lg:flex-row flex-col gap-[30px] justify-between">
+                    <div class="w-11/12 max-w-[360px]" style="background-color:#FAFBFF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/trustpilot.webp" class="w-8/12">
+                                <span style="color:#2F1C6A;">I have migrated to Hostinger few months ago. I am extremely satisfied with the hosting, and with their support while setting everything up.</span>
+                            </div>
+                            <div class="flex flex-row pt-[10px] justify-between">
+                                <img src="assets/img/rating.webp" class="w-6/12">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-right" style="width: 24px; height: 24px;"><path fill="#673EE6" d="M8.29498 16.885L12.875 12.295L8.29498 7.705L9.70498 6.295L15.705 12.295L9.70498 18.295L8.29498 16.885Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="background-color:#FAFBFF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/trustpilot.webp" class="w-8/12">
+                                <span style="color:#2F1C6A;">Migrated over a website and email from another provider. Hostinger's UI is easy to use and the support was quick, friendly, and very helpful.</span>
+                            </div>
+                            <div class="flex flex-row pt-[10px] justify-between">
+                                <img src="assets/img/rating.webp" class="w-6/12">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-right" style="width: 24px; height: 24px;"><path fill="#673EE6" d="M8.29498 16.885L12.875 12.295L8.29498 7.705L9.70498 6.295L15.705 12.295L9.70498 18.295L8.29498 16.885Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="background-color:#FAFBFF">
+                        <div class="flex flex-col p-8">
+                            <div class="flex flex-col gap-[15px]">
+                                <img src="assets/img/trustpilot.webp" class="w-8/12">
+                                <span style="color:#2F1C6A;">Very positive experience as a new customer. I migrated my website hosting and the support was amazing and very responsive.</span>
+                            </div>
+                            <div class="flex flex-row pt-[10px] justify-between">
+                                <img src="assets/img/rating.webp" class="w-6/12">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="arrow-right" style="width: 24px; height: 24px;"><path fill="#673EE6" d="M8.29498 16.885L12.875 12.295L8.29498 7.705L9.70498 6.295L15.705 12.295L9.70498 18.295L8.29498 16.885Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[1150px] w-11/12 flex flex-col gap-[18px] mx-auto justify-around items-center py-[30px]">
+                <h1 class="font-semibold text-4xl" style="color:#2F1C6A">Featured Client Stories</h1>
+                <div class="flex lg:flex-row flex-col gap-[30px] justify-between mt-5">
+                    <div class="w-11/12 max-w-[360px]" style="border:1px solid #D5DFFF; border-radius:6px;">
+                        <div class="flex flex-col px-8 py-12 gap-[40px]">
+                            <div class="flex flex-col gap-[24px]">
+                                <img src="assets/img/rating2.png" class="w-6/12">
+                                <span style="color:#2F1C6A;" class="text-md">Hostinger impressed me with amazing customer experience and effortless migration from my previous hosting provider.</span>
+                            </div>
+                            <div>
+                                <a href="#"><span style="color:#673DE6;" class="font-semibold">Read full story</span></a>
+                            </div>
+                        </div>
+                        <div class="flex flex-row px-8 py-6 gap-[10px]" style="border-top:1px solid #D5DFFF; background-color:#F4F5FF">
+                           <div>
+                                <img src="assets/img/face1.webp" class="w-16 h-16 rounded-full">
+                           </div>
+                           <div class="my-auto">
+                                <span style="color:#2F1C6A;" class="text-lg font-semibold">Sameer Chauhan</span><br>
+                                <span style="color:#2F1C6A;" class="pt-5 text-sm">Freelance Developer</span>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="border:1px solid #D5DFFF; border-radius:6px;">
+                        <div class="flex flex-col px-8 py-12 gap-[40px]">
+                            <div class="flex flex-col gap-[24px]">
+                                <img src="assets/img/rating2.png" class="w-6/12">
+                                <span style="color:#2F1C6A;" class="text-md">Support matters to me the most. Your specialists were always there to help me immediately whenever needed. Really loved the support!! </span>
+                            </div>
+                            <div>
+                                <a href="#"><span style="color:#673DE6;" class="font-semibold">Read full story</span></a>
+                            </div>
+                        </div>
+                        <div class="flex flex-row px-8 py-6 gap-[10px]" style="border-top:1px solid #D5DFFF; background-color:#F4F5FF">
+                           <div>
+                                <img src="assets/img/face2.webp" class="w-16 h-16 rounded-full">
+                           </div>
+                           <div class="my-auto">
+                                <span style="color:#2F1C6A;" class="text-lg font-semibold">Jake Sinclair</span><br>
+                                <span style="color:#2F1C6A;" class="pt-5 text-sm">Graphic and Web Designer</span>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="w-11/12 max-w-[360px]" style="border:1px solid #D5DFFF; border-radius:6px;">
+                        <div class="flex flex-col px-8 py-12 gap-[40px]">
+                            <div class="flex flex-col gap-[24px]">
+                                <img src="assets/img/rating2.png" class="w-6/12">
+                                <span style="color:#2F1C6A;" class="text-md">I was looking for a hosting company that is very intuitive for beginners and very well-configured for good performance.</span>
+                            </div>
+                            <div>
+                                <a href="#"><span style="color:#673DE6;" class="font-semibold">Read full story</span></a>
+                            </div>
+                        </div>
+                        <div class="flex flex-row px-8 py-6 gap-[10px]" style="border-top:1px solid #D5DFFF; background-color:#F4F5FF">
+                           <div>
+                                <img src="assets/img/face3.webp" class="w-16 h-16 rounded-full">
+                           </div>
+                           <div class="my-auto">
+                                <span style="color:#2F1C6A;" class="text-lg font-semibold">Jhon Ortega</span><br>
+                                <span style="color:#2F1C6A;" class="pt-5 text-sm">Entrepreneur</span>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="font-semibold py-3 mt-5 max-w-[400px] w-11/12 drop-shadow-lg" style="color:rgb(103,61,230); font-size:17px; border:2px solid rgb(103,61,230); border-radius:5px;">
+                    Browse More Client Stories
+                </button>
+                <h1 class="font-semibold text-4xl mt-20" style="color:#2F1C6A">Join 1,597,691 Website Owners</h1>
+                <button class="font-semibold py-3 mt-5 max-w-[250px] w-11/12 drop-shadow-lg" style="color:#ffffff; font-size:17px; background-color:rgb(103,61,230); border-radius:5px;">
+                    Get Started
+                </button>
+                <div class="flex flex-row gap-[5px] max-w-[250px] w-11/12">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" aria-label="check" style="width: 12px; height: 24px;"><path fill="#00B090" d="M12 8.758a.694.694 0 0 1-.217.515l-5.605 5.485-1.053 1.03A.725.725 0 0 1 4.6 16a.724.724 0 0 1-.527-.212l-1.053-1.03-2.803-2.743A.694.694 0 0 1 0 11.5c0-.202.072-.374.217-.515l1.053-1.03a.725.725 0 0 1 .526-.213c.207 0 .382.071.527.213L4.6 12.19l5.078-4.977c.14-.14.33-.216.527-.212.206 0 .382.07.526.212l1.053 1.03c.142.134.22.321.217.516Z"></path></g></svg>
+                    <span class="text-center" style="color:#4d4d4d; font-size:14px;">Benefit from an exclusive 30-day money-back guarantee</span>
+                </div>
+            </div>
+        </div>
+        <footer class="w-full" style="background-color:#F4F5FF">
+            <div style="background-color:#F4F5FF" class="max-w-[1150px] w-11/12 flex flex-row mx-auto py-[80px] gap-[30px] justify-between">
+                <div class="flex flex-col gap-[20px] w-4/12 max-w-[320px]">
+                    <svg data-v-7fc192fd="" data-v-26712b06="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147 30" aria-label="hostinger-logo" role="presentation" class="h-icon-meteorite-dark" style="width: 147px; height: 30px;"><g data-v-7fc192fd=""><g data-v-7fc192fd=""><path fill="#2F1C6A" fill-rule="evenodd" clip-rule="evenodd" d="M62.065 17.6549C62.3745 16.86 62.5299 15.9376 62.5299 14.8891C62.5299 13.8401 62.3721 12.9178 62.0559 12.1227C61.74 11.327 61.3067 10.6582 60.7568 10.1161C60.2067 9.5741 59.563 9.16774 58.8258 8.8966C58.0881 8.6252 57.3041 8.4895 56.4733 8.4895C55.6657 8.4895 54.8959 8.6252 54.1648 8.8966C53.433 9.16774 52.7891 9.5741 52.2336 10.1161C51.6776 10.6582 51.2354 11.327 50.908 12.1227C50.5802 12.9178 50.4163 13.8401 50.4163 14.8891C50.4163 15.9376 50.5746 16.86 50.8905 17.6549C51.2067 18.4506 51.6393 19.1164 52.1896 19.6523C52.7395 20.1889 53.3834 20.5923 54.1209 20.8632C54.8583 21.1346 55.6421 21.2701 56.4733 21.2701C57.3274 21.2701 58.1264 21.1346 58.8695 20.8632C59.6126 20.5923 60.2536 20.1889 60.7919 19.6523C61.33 19.1164 61.7544 18.4506 62.065 17.6549ZM53.4622 16.515C53.3159 16.0317 53.243 15.4897 53.243 14.889C53.243 14.2998 53.3159 13.7607 53.4622 13.2713C53.6085 12.7824 53.8194 12.3642 54.0946 12.0167C54.3691 11.6689 54.7059 11.3977 55.104 11.2032C55.5017 11.0089 55.9581 10.9118 56.4733 10.9118C56.9763 10.9118 57.43 11.006 57.8341 11.1946C58.2374 11.3827 58.5772 11.6511 58.8518 11.9986C59.1268 12.3466 59.3379 12.7646 59.4842 13.2535C59.6305 13.7427 59.7037 14.2877 59.7037 14.889C59.7037 15.4897 59.6305 16.0317 59.4842 16.515C59.3379 16.9984 59.1268 17.4137 58.8518 17.7612C58.5772 18.1092 58.2374 18.3769 57.8341 18.5653C57.43 18.7543 56.9763 18.8488 56.4733 18.8488C55.9581 18.8488 55.5017 18.7543 55.104 18.5653C54.7059 18.3769 54.3691 18.1092 54.0946 17.7612C53.8194 17.4137 53.6085 16.9984 53.4622 16.515Z"></path> <path fill="#2F1C6A" d="M69.4166 18.9192C69.8027 18.9192 70.1216 18.8871 70.3732 18.8218C70.6249 18.7573 70.8269 18.6691 70.9788 18.5564C71.1308 18.4449 71.2364 18.3124 71.295 18.1591C71.3537 18.0061 71.3829 17.8351 71.3829 17.6465C71.3829 17.2461 71.1954 16.9127 70.821 16.6479C70.4464 16.3825 69.8027 16.097 68.89 15.79C68.4918 15.6491 68.0939 15.4867 67.696 15.3043C67.2981 15.1219 66.9411 14.892 66.6252 14.6149C66.3095 14.3381 66.0517 14.0022 65.8529 13.607C65.6538 13.2125 65.5544 12.7325 65.5544 12.1667C65.5544 11.6009 65.6597 11.0912 65.8703 10.6377C66.0812 10.1839 66.3794 9.79828 66.7658 9.47968C67.152 9.16132 67.6199 8.91736 68.17 8.74607C68.7201 8.57552 69.3402 8.4895 70.031 8.4895C70.8502 8.4895 71.5584 8.57848 72.1555 8.75497C72.752 8.93169 73.2437 9.12647 73.6298 9.33854L72.8401 11.5127C72.5004 11.3359 72.1228 11.1797 71.7077 11.044C71.2921 10.9088 70.7918 10.8406 70.2068 10.8406C69.5511 10.8406 69.08 10.9326 68.7933 11.115C68.5066 11.2976 68.363 11.5777 68.363 11.9544C68.363 12.1786 68.416 12.3674 68.5213 12.5201C68.6264 12.6734 68.7759 12.8118 68.9688 12.9356C69.162 13.0592 69.3844 13.1714 69.6363 13.2713C69.8874 13.3717 70.1656 13.4745 70.4702 13.5805C71.1018 13.8166 71.652 14.0492 72.1203 14.279C72.5882 14.5089 72.9776 14.7771 73.2879 15.0833C73.5977 15.3896 73.8289 15.7492 73.9814 16.1617C74.1331 16.5745 74.2094 17.075 74.2094 17.6638C74.2094 18.807 73.8112 19.6938 73.0154 20.3241C72.2195 20.9549 71.0198 21.2703 69.4166 21.2703C68.8782 21.2703 68.3924 21.2377 67.9594 21.1729C67.5264 21.1077 67.1432 21.0283 66.8095 20.9342C66.4762 20.84 66.1892 20.7399 65.9491 20.6338C65.7093 20.5276 65.5075 20.4277 65.3435 20.333L66.1163 18.1414C66.4786 18.3421 66.9264 18.5215 67.4593 18.6802C67.9915 18.8396 68.6443 18.9192 69.4166 18.9192Z"></path> <path fill="#2F1C6A" d="M86.2751 8.77295V11.1241H82.6059V21.0226H79.8673V11.1241H76.1978V8.77295H86.2751Z"></path> <path fill="#2F1C6A" d="M89.3171 21.0228H92.056V8.77295H89.3171V21.0228Z"></path> <path fill="#2F1C6A" d="M104.315 21.0226C103.531 19.6204 102.683 18.236 101.77 16.8686C100.856 15.5015 99.8849 14.2112 98.8554 12.9974V21.0226H96.1516V8.77295H98.3811C98.767 9.1615 99.1944 9.6388 99.6628 10.2046C100.131 10.7704 100.607 11.3744 101.093 12.0166C101.579 12.6588 102.062 13.3246 102.542 14.0138C103.021 14.7031 103.472 15.3658 103.894 16.0023V8.77295H106.615V21.0226H104.315Z"></path> <path fill="#2F1C6A" d="M116.644 10.8942C115.369 10.8942 114.447 11.2507 113.879 11.9635C113.312 12.6766 113.028 13.6515 113.028 14.8893C113.028 15.4897 113.098 16.0352 113.238 16.5241C113.379 17.0128 113.59 17.4339 113.87 17.7876C114.152 18.1414 114.502 18.4155 114.924 18.61C115.345 18.8043 115.836 18.9014 116.398 18.9014C116.702 18.9014 116.963 18.8955 117.18 18.8839C117.396 18.8722 117.586 18.8488 117.75 18.8132V14.5534H120.489V20.6163C120.161 20.7461 119.635 20.8842 118.909 21.0313C118.183 21.1784 117.288 21.2525 116.223 21.2525C115.31 21.2525 114.482 21.1109 113.739 20.8284C112.995 20.5451 112.361 20.1331 111.834 19.5908C111.308 19.049 110.901 18.3828 110.614 17.5934C110.327 16.8044 110.184 15.9027 110.184 14.8893C110.184 13.8638 110.342 12.9564 110.658 12.1667C110.974 11.3775 111.406 10.7081 111.957 10.1604C112.507 9.61241 113.153 9.19716 113.897 8.91439C114.64 8.63138 115.433 8.4895 116.276 8.4895C116.849 8.4895 117.367 8.52831 117.829 8.60468C118.291 8.68156 118.689 8.7698 119.023 8.87015C119.357 8.97001 119.632 9.07308 119.848 9.17936C120.065 9.2854 120.219 9.3682 120.314 9.42703L119.524 11.6363C119.149 11.436 118.719 11.2625 118.233 11.115C117.747 10.9677 117.218 10.8942 116.644 10.8942Z"></path> <path fill="#2F1C6A" d="M124.321 21.0226V8.77295H132.537V11.0885H127.06V13.4922H131.923V15.7551H127.06V18.7071H132.941V21.0226H124.321Z"></path> <path fill="#2F1C6A" fill-rule="evenodd" clip-rule="evenodd" d="M144.006 9.61238C143.035 8.95811 141.636 8.63135 139.811 8.63135C139.307 8.63135 138.737 8.65483 138.099 8.70229C137.461 8.749 136.844 8.83205 136.247 8.94921V21.0226H138.985V16.55H140.337C140.572 16.8333 140.807 17.1484 141.042 17.4964C141.277 17.844 141.516 18.2118 141.756 18.6008C141.997 18.9899 142.231 19.3908 142.461 19.8031C142.689 20.2156 142.916 20.6219 143.139 21.0226H146.2C145.99 20.575 145.762 20.1185 145.516 19.6525C145.271 19.1874 145.016 18.7397 144.753 18.3096C144.489 17.8796 144.223 17.467 143.954 17.0721C143.685 16.6773 143.427 16.3268 143.181 16.0201C143.919 15.7141 144.484 15.2924 144.875 14.7565C145.268 14.2204 145.464 13.5217 145.464 12.6617C145.464 11.2828 144.977 10.2664 144.006 9.61238ZM139.433 11C139.591 10.9884 139.769 10.9825 139.968 10.9825C140.846 10.9825 141.51 11.1093 141.961 11.3621C142.412 11.6162 142.637 12.0428 142.637 12.644C142.637 13.2688 142.415 13.711 141.97 13.9698C141.525 14.2293 140.788 14.3583 139.758 14.3583H138.985V11.0354C139.126 11.024 139.275 11.0121 139.433 11Z"></path> <path fill="#2F1C6A" d="M44.0025 8.87207H46.7577V21.0786H44.0025V15.9001H39.3754V21.0786H36.6201V8.87207H39.3754V13.5395H44.0025V8.87207Z"></path> <path fill="#2F1C6A" fill-rule="evenodd" clip-rule="evenodd" d="M17.8175 0.328857V9.05827L24.87 13.1829V3.92368L17.8175 0.328857ZM0.000244886 0.329286V14.0277H22.937L15.9584 10.1921L6.8675 10.1876V4.01584L0.000244886 0.329286ZM17.8175 25.8012V19.6826L8.65652 19.6762C8.66507 19.7169 1.56204 15.7792 1.56204 15.7792L24.8699 15.8893V29.5875L17.8175 25.8012ZM0.000244325 16.8495L0 25.8011L6.8675 29.3957V20.8765L0.000244325 16.8495Z"></path></g></g></svg>
+                    <span style="color:#2F1C6A; font-size:14px;">We are a web hosting company with a mission to help everyone who goes online succeed.
+                        We accomplish this by continuously developing server technology, giving expert assistance, and ensuring a flawless online website hosting experience.</span>
+                    <div class="flex flex-col gap-[5px]">
+                        <div class="flex flex-row gap-[8px] justify-between">
+                            <img src="assets/img/visa.svg">
+                            <img src="assets/img/mastercard.svg">
+                            <img src="assets/img/rupay.svg">
+                            <img src="assets/img/discover.svg">
+                            <img src="assets/img/dinersclub.svg">
+                        </div>
+                        <a href="#"><span style="color:#673DE6;" class="font-semibold">And more</span></a>
+                    </div>
+                </div>
+                <div class="flex flex-col w-2/12 max-w-[320px] gap-[10px]">
+                    <h1 class="font-semibold text-lg" style="color:#2F1C6A">HOSTING</h1>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Web Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Generate similar links for Professional Web Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">VPS Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Minecraft Server Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">CyberPanel Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Cloud Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">WordPress Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Business Email</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">CMS Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Ecommerce Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Free Web Hosting</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Online Store</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Website Builder</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">AI Website Builder</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Logo Maker</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Website Templates</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Buy Hosting</span></a>
+                </div>
+                <div class="flex flex-col w-2/12 max-w-[320px] gap-[10px]">
+                    <h1 class="font-semibold text-lg" style="color:#2F1C6A">DOMAIN</h1>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Domain Name Search</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Domain Transfer</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Free Domain Name</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Cheap Domains</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Domain Extensions</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">WHOIS Lookup</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Free SSL Certificate</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">.in Domain</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">.com Domain</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">.io Domain</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">.net Domain</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">.ai Domain</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">.tech Domain</span></a>
+                </div>
+                <div class="flex flex-col w-2/12 max-w-[320px] gap-[10px]">
+                    <h1 class="font-semibold text-lg" style="color:#2F1C6A">INFORMATION</h1>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Migrate to Hostinger</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">System Status</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Affiliate Program</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Payment Methods</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Rewards</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Hostinger Reviews</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Pricing</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Sitemap</span></a>
+                    <h1 class="font-semibold text-lg pt-[20px]" style="color:#2F1C6A">LEGAL</h1>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Privacy Policy</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Terms & Conditions</span></a>
+                </div>
+                <div class="flex flex-col w-2/12 max-w-[320px] gap-[10px]">
+                    <h1 class="font-semibold text-lg" style="color:#2F1C6A">COMPANY</h1>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">About Hostinger</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Our Technology</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Roadmap</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Customer Care</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Blog</span></a>
+                    <h1 class="font-semibold text-lg pt-[20px]" style="color:#2F1C6A">HELP</h1>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Tutorials</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Knowledge Base</span></a>
+                    <a href="#"><span style="color:#2F1C6A; font-size:14px;">Report Online Abuse</span></a>
+                </div>       
+            </div>
+            <div style="background-color:#F4F5FF" class="max-w-[1150px] w-11/12 flex flex-row mx-auto py-[10px] justify-end gap-[8px]">
+                <svg class="w-[20px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path fill="#2F1C6A" d="M16 0H2C0.895 0 0 0.895 0 2V16C0 17.105 0.895 18 2 18H16C17.105 18 18 17.105 18 16V2C18 0.895 17.105 0 16 0ZM6 14H3.477V7H6V14ZM4.694 5.717C3.923 5.717 3.408 5.203 3.408 4.517C3.408 3.831 3.922 3.317 4.779 3.317C5.55 3.317 6.065 3.831 6.065 4.517C6.065 5.203 5.551 5.717 4.694 5.717ZM15 14H12.558V10.174C12.558 9.116 11.907 8.872 11.663 8.872C11.419 8.872 10.605 9.035 10.605 10.174C10.605 10.337 10.605 14 10.605 14H8.082V7H10.605V7.977C10.93 7.407 11.581 7 12.802 7C14.023 7 15 7.977 15 10.174V14Z"></path></svg>
+                <svg class="w-[20px]" data-v-3dbca3b2="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" ><path fill="#2F1C6A" d="M16 0H2C0.895 0 0 0.895 0 2V16C0 17.105 0.895 18 2 18H9.621V11.039H7.278V8.314H9.621V6.309C9.621 3.985 11.042 2.718 13.116 2.718C13.815 2.716 14.513 2.752 15.208 2.823V5.253H13.78C12.65 5.253 12.43 5.787 12.43 6.575V8.31H15.13L14.779 11.035H12.414V18H16C17.105 18 18 17.105 18 16V2C18 0.895 17.105 0 16 0Z"></path></svg>
+                <svg class="w-[20px]" data-v-3dbca3b2="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" ><path fill="#2F1C6A" d="M4 0C1.239 0 0 1.239 0 4V14C0 16.761 1.239 18 4 18H14C16.761 18 18 16.761 18 14V4C18 1.239 16.761 0 14 0H4ZM15 2C15.552 2 16 2.448 16 3C16 3.552 15.552 4 15 4C14.448 4 14 3.552 14 3C14 2.448 14.448 2 15 2ZM9 4C11.761 4 14 6.239 14 9C14 11.761 11.761 14 9 14C6.239 14 4 11.761 4 9C4 6.239 6.239 4 9 4ZM9 6C8.20435 6 7.44129 6.31607 6.87868 6.87868C6.31607 7.44129 6 8.20435 6 9C6 9.79565 6.31607 10.5587 6.87868 11.1213C7.44129 11.6839 8.20435 12 9 12C9.79565 12 10.5587 11.6839 11.1213 11.1213C11.6839 10.5587 12 9.79565 12 9C12 8.20435 11.6839 7.44129 11.1213 6.87868C10.5587 6.31607 9.79565 6 9 6Z"></path></svg>
+                <svg class="w-[20px]" data-v-3dbca3b2="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" ><path fill="#2F1C6A" d="M16 0H2C0.895 0 0 0.895 0 2V16C0 17.105 0.895 18 2 18H16C17.105 18 18 17.105 18 16V2C18 0.895 17.105 0 16 0ZM14.05 6.514C14.05 6.6 14.05 6.685 14.05 6.857C14.05 10.114 11.564 13.886 7.021 13.886C5.65 13.886 4.364 13.457 3.25 12.772C3.421 12.772 3.679 12.772 3.85 12.772C4.964 12.772 6.079 12.343 6.936 11.743C5.822 11.743 4.965 10.972 4.622 10.029C4.793 10.029 4.965 10.115 5.051 10.115C5.308 10.115 5.48 10.115 5.737 10.029C4.623 9.772 3.766 8.829 3.766 7.629C4.109 7.8 4.452 7.886 4.88 7.972C4.194 7.372 3.766 6.686 3.766 5.829C3.766 5.4 3.852 4.972 4.109 4.629C5.309 6.086 7.109 7.115 9.166 7.2C9.166 7.029 9.08 6.857 9.08 6.6C9.08 5.229 10.194 4.114 11.566 4.114C12.252 4.114 12.937 4.371 13.366 4.885C13.966 4.799 14.48 4.542 14.909 4.285C14.738 4.885 14.309 5.314 13.795 5.656C14.309 5.57 14.738 5.485 15.252 5.227C14.907 5.743 14.479 6.171 14.05 6.514Z"></path></svg>
+                <svg class="w-[20px]" data-v-3dbca3b2="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" ><path fill="#2F1C6A" fill-rule="evenodd" clip-rule="evenodd" d="M15.8008 0C17.0146 0 18 0.98543 18 2.19916V15.8008C18 17.0146 17.0146 18 15.8008 18H2.19916C0.98543 18 0 17.0146 0 15.8008V2.19916C0 0.98543 0.985394 0 2.19916 0H15.8008V0ZM15.0637 6.17449C14.9182 5.62996 14.4894 5.20112 13.9448 5.05561C12.9577 4.79109 9 4.79109 9 4.79109C9 4.79109 5.04228 4.79109 4.05517 5.05561C3.51074 5.20112 3.08183 5.62996 2.93629 6.17449C2.67188 7.1615 2.67188 9.22085 2.67188 9.22085C2.67188 9.22085 2.67188 11.2802 2.93629 12.2671C3.08183 12.8116 3.51074 13.2405 4.05517 13.3861C5.04228 13.6505 9 13.6505 9 13.6505C9 13.6505 12.9577 13.6505 13.9448 13.3861C14.4894 13.2405 14.9182 12.8116 15.0637 12.2671C15.3281 11.2802 15.3281 9.22085 15.3281 9.22085C15.3281 9.22085 15.3281 7.1615 15.0637 6.17449ZM7.7343 11.1193V7.32238L11.0225 9.22085L7.7343 11.1193Z"></path></svg>
+            </div>
+            <div style="background-color:#D5DFFF" class="max-w-[1150px] h-px w-11/12 mt-[20px] mx-auto"></div>
+            <div style="background-color:#F4F5FF" class="max-w-[1100px] w-11/12 flex flex-row mx-auto py-[20px] gap-[30px] justify-between">
+                <span style="color:#2F1C6A; font-size:14px;">© 2004-2023 hostinger.in - Clone of India's #1 Hosting & Domains provider.</span>
+                <span style="color:#2F1C6A; font-size:14px;">Clone created by Sameer Chauhan.</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
