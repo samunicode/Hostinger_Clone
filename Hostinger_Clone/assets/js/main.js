@@ -11,3 +11,8 @@ function updateTimer() {
 
   // Update the timer every second
   setInterval(updateTimer, 1000);
+
+  document.getElementById('hamburger').addEventListener('click', function() {
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenu.classList.toggle('mobile-menu-open');
+});
